@@ -1,0 +1,118 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background: url(../img/fundo-site.png) no-repeat;
+    background-size: cover;
+}
+
+.cabeca{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 5%;
+}
+
+.cabeca h1{
+    color: white;
+}
+
+.cabeca img{
+    width: 3%;
+}
+
+.conteudo{
+    margin-top: 5%;
+    display: flex;
+    gap: 140px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    width: 320px;
+    height: 540px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.select{
+    z-index: 1;
+}
+
+.conteudo .btn{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px;
+    transition: all 0.5s;
+}
+
+.conteudo .btn:nth-of-type(1){
+    transform: rotateY(180deg);
+}
+
+.conteudo .btn:hover{
+    background-color: #8351FE;
+}
+
+.conteudo li{
+    border-radius: 15px;
+    padding: 17px;
+    position: absolute;
+}
+
+.conteudo li:nth-of-type(1){
+    background: url(../img/fundo-card-3.jpg);
+}
+
+.conteudo li:nth-of-type(2) {
+    background: url(../img/fundo-card-2.jpg);
+}
+
+.conteudo li:nth-of-type(3) {
+    background: url(../img/fundo-card-1.jpg);
+}
+
+.conteudo .text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(172, 167, 167, 0.425);
+    border-radius: 10px 10px 0px 0px;
+    padding: 9px 10px;
+    color: white;
+}
+
+.conteudo .text p{
+    font-size: 1.1em;
+    font-weight: 500;
+    background-color: #201f1f;
+    border-radius: 30px;
+    padding: 5px 15px;
+}
+
+.conteudo .descr{
+    text-align: initial;
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 1px 1px 10px 10px;
+    margin: 20px 0px 0px 0px;
+}
+
+.conteudo .descr2{
+    margin: -5px 0px 0px 0px;
+}
+
+.conteudo .descr h3{
+    color: white;
+    background-color: #201f1f;
+    padding: 10px;
+    border-radius: 1px 1px 0px 0px;
+}
+
+.conteudo .descr p{
+    padding: 10px;
+    height: 120px;
+    overflow-y: scroll;
+}
