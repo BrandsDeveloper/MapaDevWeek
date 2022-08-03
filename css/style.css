@@ -32,7 +32,6 @@ ul{
     height: 540px;
     text-align: center;
     position: relative;
-    margin-bottom: 10%;
 }
 
 .select{
@@ -75,6 +74,10 @@ ul{
     background: url(../img/fundo-card-1.jpg);
 }
 
+.conteudo ul li div > img.mew {
+    width: 82.2%;
+}
+
 .conteudo .text{
     display: flex;
     align-items: center;
@@ -98,10 +101,6 @@ ul{
     background-color: rgba(255, 255, 255, 0.63);
     border-radius: 1px 1px 10px 10px;
     margin: 20px 0px 0px 0px;
-}
-
-.conteudo .descr2{
-    margin: -5px 0px 0px 0px;
 }
 
 .conteudo .descr h3{
